@@ -1,0 +1,29 @@
+body{
+    color: red;
+}
+
+.box{
+    height: 500px;
+    background-color: #ddd;
+    position: relative;
+}
+/* .item {
+    width: 300px;
+    height: 120px;
+    background-color: orangered;
+    position: absolute;
+    /* 영역위에 떠 있음 */
+    /* item의 부모(box)요소에 포지션 relative 넣어줘야 top/left/right/bottom 전부 시용가능 */
+    /* left: 160px;
+    bottom: 50px; */
+    /* 지정한 숫자만큼 남기고 지시한 방향으로 붙음 
+}
+*/
+.box p::after {
+    content: 'hello';
+    /* p뒤에 글적기 가능 */
+}
+.box p::before{
+    content: 'css';
+    /* p앞에 글적기 */
+}
